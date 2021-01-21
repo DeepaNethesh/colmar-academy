@@ -14,23 +14,30 @@
             <div class="row">
                 <div class="col-6 d-flex justify-content-start my-2 ">
                     <img src="images/ic-logo.svg" class="img-fluid" style= "height:4rem;" alt="Logo">
-                    <h3 class="mt-3" style="font-size: 32px;">COLMAR <span class="text-secondary">ACADEMY</span></h3>
+                    <h3 class="mt-3 d-none d-sm-none d-md-block" style="font-size: 32px;">COLMAR <span class="text-secondary">ACADEMY</span></h3>
                 </div>
-                <div class="col-6 d-flex justify-content-end mt-3" style="font-size: 24px; ">
-                    <div class="p-2"><a class="text-dark" style="text-decoration:none;" href="#">On Campus</a></div>
-                    <div class="p-2"><a class="text-dark" style="text-decoration:none;" href="#">Online</a></div>
-                    <div class="p-2"><a class="text-dark" style="text-decoration:none;" href="#">For Companies</a></div> 
-                    <div class="p-2"><a class="text-dark" style="text-decoration:none;" href="#">Sign In</a></div>
+                <div class=" col-6 d-flex justify-content-end d-sm-block d-md-none my-2">
+                    <img src="images/ic-on-campus.svg" class="img-fluid ps-1 mt-0" style= "height:4rem;" alt="on campus">
+                    <img src="images/ic-online.svg" class="img-fluid ps-1 mt-0" style= "height:4rem;" alt="Online">
+                    <img src="images/ic-login.svg" class="img-fluid ps-1 mt-0" style= "height:4rem;" alt="Login">
+                   
                 </div>
+                <div class="col-6 d-flex justify-content-end py-3  " style="font-size: 24px; ">
+                    <div class="p-2 d-none d-sm-none d-md-block"><a class="text-dark" style="text-decoration:none;" href="#">On Campus</a></div>
+                    <div class="p-2 d-none d-sm-none d-md-block"><a class="text-dark" style="text-decoration:none;" href="#">Online</a></div>
+                    <div class="p-2 d-none d-sm-none d-md-block"><a class="text-dark" style="text-decoration:none;" href="#">For Companies</a></div> 
+                    <div class="p-2 d-none d-sm-none d-md-block"><a class="text-dark" style="text-decoration:none;" href="#">Sign In</a></div>
+                </div>
+                
             </div>
         </div>
     </nav>
     <div class="container" style="background-color:#D3D3D3;">
         <div class="row">
-            <div class="col-7">
+            <div class="col-md-7">
                 <img src="images/banner.jpg" class="img-fluid my-5 ms-4"  alt="banner">
             </div>
-                <div class="col-5 d-flex align-items-center">
+                <div class="col-md-5 d-flex align-items-center">
                     <div class="row ms-4">
                         
                             <h2 class="fw-bolder" style="font-size:50px;">Learn Something new everyday</h3><br>
@@ -42,7 +49,7 @@
     </div>
     <div class="container border border-dark">
         <div class="row">
-            <div class="col-7 mt-2">
+            <div class="col-7 mt-2 d-none d-sm-none d-md-block">
                 <img src="images/information-main.jpg" class="img-fluid my-5 ms-4"  alt="info-main">
                 <div class="ms-4">
                     <h2 class="mb-3 fw-bold">It doesn't hurt to keep practicing</h2>
@@ -51,20 +58,24 @@
                 </div>
                 
             </div>
-            <div class="col-5">
-                <div class="row ms-4 mb-2">
-                    <div class="col-4 mt-5 pt-2 ">
-                        <img src="images/information-orientation.jpg" class="img-fluid"  style="height: auto;" alt="info-main">
+            <div class="col-md-5">
+                <div class="row ms-4 mb-2 ">
+                    <div class="col-md-4 mt-5 pt-2">
+                        <img src="images/information-orientation.jpg" class="img-fluid d-none d-sm-none d-md-flex"  style="height: auto;" alt="info-main">
+                    
+                        <img src="images/information-orientation-mobile.jpg" class="img-fluid d-block d-sm-block d-md-none "  style="height: auto;" alt="info-main">
                     </div>
-                    <div class="col-8 ">
-                        <h2 class="fw-bold mt-5 pt-2"style="font-size:30px;">Orientation Date</h3><br>
+                    <div class="col-md-8 ">
+                        <h2 class="fw-bold mt-3 pt-2"style="font-size:30px;">Orientation Date</h3><br>
                         <p style="font-size:15px;">Tues 10/11 and Wed 10/12: 8am-3pm.</p>
-                        <span><a class="ms-1" style="text-decoration: none;" href="">Read More</a></span>
+                        <span><a style="text-decoration: none;" href="">Read More</a></span>
                     </div>                 
                 </div> 
                 <div class="row ms-4 mb-2">
-                    <div class="col-4 mt-5 pt-2">
-                        <img src="images/information-campus.jpg" class="img-fluid"  style="height: auto;" alt="info-main">
+                    <div class="col-md-4 mt-5 pt-2">
+                        <img src="images/information-campus.jpg" class="img-fluid d-none d-sm-none d-md-flex"  style="height: auto;" alt="info-main">
+                        <img src="images/information-campus-mobile.jpg" class="img-fluid d-block d-sm-block d-md-none "  style="height: auto;" alt="info-main">
+
                     </div>
                     <div class="col-8 ">
                         <h2 class="fw-bold mt-5 pt-2"style="font-size:30px;">Our Campus</h3><br>
@@ -73,8 +84,9 @@
                     </div>                 
                 </div> 
                 <div class="row ms-4 mb-2" style="background-color:#D3D3D3;">
-                    <div class="col-4 mt-5 pt-2">
-                        <img src="images/information-guest-lecture.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
+                    <div class="col-md-4 mt-5 pt-2">
+                        <img src="images/information-guest-lecture.jpg" class="img-fluid d-none d-sm-none d-md-flex"  style="height: auto; " alt="info-main">
+                        <img src="images/information-guest-lecture-mobile.jpg" class="img-fluid d-block d-sm-block d-md-none " style="height: auto;" alt="info-main">
                     </div>
                     <div class="col-8 ">
                         <h2 class="fw-bold mt-5 pt-2"style="font-size:30px;">Our guest lecture</h3><br>
@@ -85,14 +97,25 @@
         </div>
     </div>
     
-    <div class="container" style="background-color:#D3D3D3;">
+   
                
-        <h1 class="fw-bolder text-center my-5 ">Start learning</h1>    
+        
+        <section class="d-md-none d-lg-none  bg-light">
+            <h1 class="fw-bolder text-center my-5">Start learning</h1> 
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2 " style="background-color:#D3D3D3;">Software engineering</h1>
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2" style="background-color:#D3D3D3;">Computer Art</h1>
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2" style="background-color:#D3D3D3;">Design</h1>
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2" style="background-color:#D3D3D3;">Data</h1>
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2" style="background-color:#D3D3D3;">Business</h1>
+            <h1 class="pt-2 pb-3 ps-2 mb-1 mt-2" style="background-color:#D3D3D3;">Marketing</h1>
+        </section>   
+        <div class="container d-none d-sm-none d-md-block" style="background-color:#D3D3D3;">
+            <h1 class="fw-bolder text-center my-5 ">Start learning</h1> 
         <div class="container">
             <div class="row">
     
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
                             <img src="images/course-software.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
@@ -109,7 +132,7 @@
                 </div>
         
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
                             <img src="images/course-computer-art.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
@@ -125,7 +148,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
                             <img src="images/course-design.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
@@ -141,9 +164,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
-                            <img src="images/course-design.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
+                            <img src="images/course-data.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
                         <div class="card-body mt-2 ms-2">
                             <div class="row justify-content-center">
@@ -157,9 +180,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
-                            <img src="images/course-design.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
+                            <img src="images/course-business.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
                         <div class="card-body mt-2 ms-2">
                             <div class="row justify-content-center">
@@ -173,9 +196,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 d-none d-sm-none d-md-block">
                         <div class="text-center">  
-                            <img src="images/course-design.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
+                            <img src="images/course-marketing.jpg" class="img-fluid"  style="height: auto; " alt="info-main">
                         </div>
                         <div class="card-body mt-2 ms-2 ">
                             <div class="row justify-content-center">
@@ -194,18 +217,20 @@
          </div>
     </div>
     <div class="container">
-        <h1 class="fw-bolder text-center my-5 ">Thesis exhibit</h1> 
+        <h1 class="fw-bolder text-center mt-1 mb-0 pb-0 ">Thesis exhibit</h1> 
             <div class="row">
-                <div class="col-7 mt-0">
+                <div class="col-md-7 mt-0 pt-0">
                     <video width="100%" height="500" controls>
                         <source src="movie.mp4" type="video/mp4">
                         <source src="videos/thesis.mp4" type="video/ogg">
                       Your browser does not support the video tag.
                       </video>
-                      <h2>Reimagine urban</h2>
-                      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                      <div class="d-none d-sm-none-d-md-block">
+                        <h2>Reimagine urban</h2>
+                        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                      </div>
                 </div>
-                <div class="col-5">
+                <div class="col-5 d-none d-sm-none d-md-block">
                     <div class="row ms-4 mt-5 " style="background-color:#D3D3D3;">
                         <div class="col-4 mt-5  ">
                             <img src="images/thesis-fisma.jpg" class="img-fluid   style="height: auto;" alt="info-main">
@@ -229,21 +254,7 @@
                  </div> 
             </div>
     </div>
-    <footer>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 d-flex justify-content-start my-2 ">
-                    
-                    <h5 class="mt-3 fw-light ms-2">&copy;2016 Colmar Academy. All rights reserved</h5>
-                </div>
-                <div class="col-6 d-flex justify-content-end mt-3" style="font-size: 24px;">
-                    <div class="mx-1 fw-light"><a class="text-dark" style="text-decoration:none;" href="#">Terms</a></div>
-                    <div class="mx-1 fw-light"><a class="text-dark" style="text-decoration:none;" href="#">Privacy</a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
     
 
 
@@ -252,4 +263,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     
 </body>
+<footer>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-start my-2 ">
+                
+                <h5 class="mt-3 fw-light ms-2">&copy;2016 Colmar Academy. All rights reserved</h5>
+            </div>
+            <div class="col-6 d-flex justify-content-end mt-3 d-none d-sm-none d-md-flex" style="font-size: 24px;">
+                <div class="mx-1 fw-light"><a class="text-dark" style="text-decoration:none;" href="#">Terms</a></div>
+                <div class="mx-1 fw-light"><a class="text-dark" style="text-decoration:none;" href="#">Privacy</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
